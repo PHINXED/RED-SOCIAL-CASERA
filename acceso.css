@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ae00ff9f;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    font-family: 'Dancing Script', cursive;
+  }
+
+.formulario {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #000000;
+    box-shadow: 0px 14px 20px #ffffff, 0px -14px 20px rgb(255, 255, 255);
+  }
+
+  .brand-logo {
+    height: 100px;
+    width: 100px;
+    background: url("https://redhistoria.com/wp-content/uploads/2012/11/helena-de-troya.jpg");
+    background-size: 100px 100px;
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .helena {
+    margin-top: 0px;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #ae00ff;
+    letter-spacing: 1px;
+  }
+  
+  .inputs {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  label, input, button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 1px;
+    color: #ae00ff;
+  }
+  
+  label:nth-of-type(2) {
+    margin-top: 20px;
+  }
+  
+  input::placeholder {
+    color: rgb(54, 25, 25);
+  }
+  
+  input {
+    color: #ffffff;
+    background: #ce79f5;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 0px 6px 6px #cbced1, inset 0px -6px 6px white;
+  }
+  
+  button {
+    color: #ffffff;
+    margin-top: 35px;
+    background: #ae00ff9f;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 0px 6px 7px #ffffff, 0px -6px 7px rgb(255, 255, 255);
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    box-shadow: none;
+  }
+  
