@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+p.salir{
+  margin-left:  1570px;
+  margin-top: 90px;
+  position: absolute;
+  font-size: 2rem;
+  
+}
+
 .helena {
     width:95% ;
     margin-top: 2%;
